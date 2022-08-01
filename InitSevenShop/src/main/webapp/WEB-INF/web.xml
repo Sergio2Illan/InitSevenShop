@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/java2e"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+   http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>com.initseven.servlets.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CerrarSession</servlet-name>
+  	<display-name>CerrarSession</display-name>
+  	<description></description>
+  	<servlet-class>com.initseven.servlets.CerrarSession</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CerrarSession</servlet-name>
+  	<url-pattern>/CerrarSession</url-pattern>
+  </servlet-mapping>
+</web-app>
